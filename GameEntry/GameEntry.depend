@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1728077180 source:c:\users\ksatr\onedrive\documents\github\c++\cpp projects\doubly linked list\main.cpp
+	<iostream>
+	"Scores.h"
+
+1728077399 c:\users\ksatr\onedrive\documents\github\c++\cpp projects\doubly linked list\scores.h
+	"GENode.h"
+
+1728077356 c:\users\ksatr\onedrive\documents\github\c++\cpp projects\doubly linked list\genode.h
+	"GameEntry.h"
+
+1728078146 c:\users\ksatr\onedrive\documents\github\c++\cpp projects\doubly linked list\gameentry.h
+	<iostream>
+
+1728077435 source:c:\users\ksatr\onedrive\documents\github\c++\cpp projects\doubly linked list\scores.cpp
+	<iostream>
+	"Scores.h"
+
