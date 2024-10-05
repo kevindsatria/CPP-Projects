@@ -54,6 +54,5 @@ int main()
     cout << "Size(" << playlist1.getPlayerList().getSize() << "), ";
     cout << "Cursor(" << playlist1.getCursor() << "), " << endl;
     playlist1.print(true);
-    cout << "testing" << endl;
     return 0;
 }
