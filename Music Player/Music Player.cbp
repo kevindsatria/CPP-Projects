@@ -32,6 +32,12 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="DoublyCircularLinkedList.cpp" />
+		<Unit filename="DoublyCircularLinkedList.h" />
+		<Unit filename="MusicPlayer.cpp" />
+		<Unit filename="MusicPlayer.h" />
+		<Unit filename="Song.cpp" />
+		<Unit filename="Song.h" />
 		<Unit filename="main.cpp" />
 		<Extensions />
 	</Project>
