@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1728096271 source:c:\users\ksatr\onedrive\documents\github\c++\cpp projects\music player\doublycircularlinkedlist.cpp
+	"DoublyCircularLinkedList.h"
+	<iostream>
+
+1728096265 c:\users\ksatr\onedrive\documents\github\c++\cpp projects\music player\doublycircularlinkedlist.h
+	"Song.h"
+
+1728096247 c:\users\ksatr\onedrive\documents\github\c++\cpp projects\music player\song.h
+	<string>
+
+1728096283 source:c:\users\ksatr\onedrive\documents\github\c++\cpp projects\music player\musicplayer.cpp
+	"MusicPlayer.h"
+	<iostream>
+
+1728096278 c:\users\ksatr\onedrive\documents\github\c++\cpp projects\music player\musicplayer.h
+	"DoublyCircularLinkedList.h"
+
+1728096258 source:c:\users\ksatr\onedrive\documents\github\c++\cpp projects\music player\song.cpp
+	"Song.h"
+	<iostream>
+
