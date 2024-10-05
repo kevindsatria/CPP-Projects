@@ -16,3 +16,20 @@
 	<iostream>
 	"Scores.h"
 
+1728077180 source:c:\users\ksatr\onedrive\documents\github\c++\cpp projects\gameentry\main.cpp
+	<iostream>
+	"Scores.h"
+
+1728077399 c:\users\ksatr\onedrive\documents\github\c++\cpp projects\gameentry\scores.h
+	"GENode.h"
+
+1728077356 c:\users\ksatr\onedrive\documents\github\c++\cpp projects\gameentry\genode.h
+	"GameEntry.h"
+
+1728078146 c:\users\ksatr\onedrive\documents\github\c++\cpp projects\gameentry\gameentry.h
+	<iostream>
+
+1728077435 source:c:\users\ksatr\onedrive\documents\github\c++\cpp projects\gameentry\scores.cpp
+	<iostream>
+	"Scores.h"
+
