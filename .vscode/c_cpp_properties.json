@@ -1,0 +1,18 @@
+{
+    "version": 4,
+    "configurations": [
+        {
+            "name": "Windows",
+            "includePath": [
+                "C:/mingw64/include/c++/14.2.0",  // Main MinGW C++ headers (update version if needed)
+                "C:/mingw64/include/c++/14.2.0/bits",  // Internal headers
+                "C:/mingw64/lib/gcc/x86_64-w64-mingw32/14.2.0/include"  // Standard library include path
+            ],
+            "defines": [],
+            "compilerPath": "C:/mingw64/bin/g++.exe",  // Path to the g++ compiler executable
+            "intelliSenseMode": "gcc-x64",  // Set IntelliSense mode for 64-bit GCC
+            "cppStandard": "c++17",  // Set C++ standard (c++11, c++14, c++17, etc.)
+            "cStandard": "c11"  // Set C standard (optional)
+        }
+    ]
+}
