@@ -1,0 +1,22 @@
+# Set the compiler
+CXX = g++
+
+# Set the compilation flags
+CXXFLAGS = -g -fdiagnostics-color=always
+
+# Automatically find all .cpp files in the current directory
+SRCS := $(wildcard *.cpp)
+
+# Define the output executable name
+TARGET = main.exe
+
+# Default rule to build the executable
+all: $(TARGET)
+
+# Rule to build the executable from source files
+$(TARGET): $(SRCS)
+	$(CXX) $(CXXFLAGS) $(SRCS) -o $(TARGET)
+
+# Clean rule to remove the compiled executable
+clean:
+	rm -f $(TARGET)
