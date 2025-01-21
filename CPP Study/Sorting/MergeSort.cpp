@@ -1,14 +1,14 @@
 #include <iostream>
 #include <vector>
+#include <random>
 
 void mergeSort(std::vector<int>& array){
-    if(array.size() <= 1){
+    if(array.size() <= 1)
         return;
-    }
-    
-    int midPoint = array.size() / 2;
-    std::vector<int> leftPart(array.begin(), array.begin() + midPoint);
-    std::vector<int> rightPart(array.begin() + midPoint, array.end());
+        
+    int midpoint = array.size() / 2;
+    std::vector<int> leftPart(array.begin(), array.begin() + midpoint);
+    std::vector<int> rightPart(array.begin() + midpoint, array.end());
     
     mergeSort(leftPart);
     mergeSort(rightPart);
@@ -19,12 +19,13 @@ void mergeSort(std::vector<int>& array){
         if(leftPart[leftIndex] < rightPart[rightIndex]){
             array[sortedIndex] = leftPart[leftIndex];
             leftIndex++;
-        } else if (rightPart[rightIndex] < leftPart[leftIndex]){
+        }
+        else{
             array[sortedIndex] = rightPart[rightIndex];
             rightIndex++;
         }
-            sortedIndex++;
-    } 
+        sortedIndex++;
+    }
     
     while(leftIndex < leftPart.size()){
         array[sortedIndex] = leftPart[leftIndex];
@@ -39,13 +40,26 @@ void mergeSort(std::vector<int>& array){
     }
 }
 
-int main(){
-    std::vector<int> numbers = {4, 10, 6, 14, 2, 1, 8, 5};
+int main()
+{
     
-    mergeSort(numbers);
+    // modern random number generator
+    std::random_device rd;
+    std::mt19937 gen(rd());
+    std::uniform_int_distribution<> distr(1,100);
     
-    for(int i : numbers)
+    std::vector<int> array;
+    for(int i = 0; i < 20; i++)
+        array.push_back(distr(gen));
+        
+    printf("Original Vector:\t");
+    for(int i : array)
         std::cout << i << " ";
-    
+        
+    mergeSort(array);
+    printf("\nSorted Vector:\t\t");
+    for(int i : array)
+        std::cout << i << " ";
+
     return 0;
 }
